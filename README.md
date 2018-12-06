@@ -1,10 +1,10 @@
 luna
 ====
+[![Build Status](https://travis-ci.com/blacchat/luna.svg?branch=master)](https://github.com/blacchat/luna)
+[![Starred](https://img.shields.io/github/stars/blacchat/luna.svg)](https://github.com/blacchat/luna)
+
+
 Financial news sentiment analysis tool<br/>
-Uses VADER and newspaper3k to grab text from news articles and perform sentiment analysis
-
-
-[!Build Status](https://travis-ci.com/blacchat/luna.svg?branch=master)
 
 requirements
 ============
