@@ -264,7 +264,6 @@ def main():
         print("Article analyzed. ")
         print("\033[1mSCORE: " + str(compound) + " " + defs[determine(compound)] + "\033[0m" + "\n")
         print("="*50)
-    print(datastore)
     if len(dates) != 0:
         for i in datastore: 
             datastore[i] = mean(datastore[i])
