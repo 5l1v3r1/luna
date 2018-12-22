@@ -249,7 +249,6 @@ def main():
     data = get_text(links)
     data = list(filter(None, data))
     datastore = dict(zip(dates, [0 for x in range(0,len(dates))]))
-    print(datastore)
     compound_scores = []
     for i in datastore: 
         datastore[i] = []
@@ -264,6 +263,7 @@ def main():
         print("Article analyzed. ")
         print("\033[1mSCORE: " + str(compound) + " " + defs[determine(compound)] + "\033[0m" + "\n")
         print("="*50)
+    datastore = dict([(k,v) for k,v in datastore.items() if len(v) > 0])
     if len(dates) != 0:
         for i in datastore: 
             datastore[i] = mean(datastore[i])
