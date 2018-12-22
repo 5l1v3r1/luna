@@ -1,0 +1,7 @@
+requests==2.20.0
+matplotlib==3.0.2
+newspaper3k==0.2.8
+numpy==1.15.4
+pandas==0.23.4
+nltk==3.3
+beautifulsoup4==4.6.3
