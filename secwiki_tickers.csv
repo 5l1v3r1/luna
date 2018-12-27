@@ -26,6 +26,7 @@ ABTL,Autobytel Inc.,Technology,Internet Information Providers,NA,stocks/abtl
 ACAD,ACADIA Pharmaceuticals Inc.,Healthcare,Biotechnology,WIKI/ACAD,stocks/acad
 ACAT,Arctic Cat Inc.,Consumer Goods,Recreational Vehicles,WIKI/ACAT,stocks/acat
 ABR,Arbor Realty Trust Inc.,Financial,REIT - Diversified,NA,stocks/abr
+ACB,Aurora Cannabis,Healthcare,NA
 ACC,"American Campus Communities, Inc.",Financial,REIT - Residential,NA,stocks/acc
 ACCL,Accelrys Inc.,Technology,Application Software,WIKI/ACCL,stocks/accl
 ACE,ACE Limited,Financial,Property & Casualty Insurance,WIKI/ACE,stocks/ace
@@ -232,6 +233,7 @@ APD,Air Products & Chemicals Inc.,Basic Materials,Chemicals - Major Diversified,
 APEI,"American Public Education, Inc.",Services,Education & Training Services,WIKI/APEI,stocks/apei
 APFC,American Pacific Corporation,,,NA,stocks/apfc
 APH,Amphenol Corporation,Technology,Diversified Electronics,WIKI/APH,stocks/aph
+APHA,Aphria,Healthcare,NA
 API,Advanced Photonix Inc.,Technology,Semiconductor - Integrated Circuits,NA,stocks/api
 APO,"Apollo Global Management, LLC",Financial,Diversified Investments,NA,stocks/apo
 APOG,"Apogee Enterprises, Inc.",Industrial Goods,General Building Materials,WIKI/APOG,stocks/apog
@@ -956,6 +958,7 @@ DISCB,"Discovery Communications, Inc.",,,NA,NA
 DISCK,"Discovery Communications, Inc.",,,NA,NA
 DISH,Dish Network Corp.,Services,CATV Systems,WIKI/DISH,stocks/dish
 DIS,The Walt Disney Company,Services,Entertainment - Diversified,WIKI/DIS,stocks/dis
+DJA,Dow Jones Composite Average,NA,NA
 DJCO,Daily Journal Corp.,Services,Publishing - Newspapers,WIKI/DJCO,stocks/djco
 DIT,AMCON Distributing Co.,Services,Food Wholesale,NA,stocks/dit
 DK,"Delek US Holdings, Inc.",Basic Materials,Oil & Gas Refining & Marketing,WIKI/DK,stocks/dk
@@ -2755,7 +2758,7 @@ SPU,"SkyPeople Fruit Juice, Inc.",Consumer Goods,Beverages - Soft Drinks,NA,stoc
 SPTN,Spartan Stores Inc.,Services,Food Wholesale,WIKI/SPTN,stocks/sptn
 SPW,SPX Corporation,Industrial Goods,Diversified Machinery,WIKI/SPW,stocks/spw
 SPWR,SunPower Corporation,Technology,Semiconductor - Specialized,WIKI/SPWR,stocks/spwr
-SPY,S&P 500 Index
+SPY,S&P 500 Index,Financial,NA,NA
 SQ,"Square Inc",Technology,Finance,NA,NA
 SQQQ,ProShares UltraPro Short QQQ
 SQI,"SciQuest, Inc.",Technology,Application Software,WIKI/SQI,stocks/sqi
@@ -3194,7 +3197,7 @@ VTUS,Ventrus Biosciences Inc.,Healthcare,Drug Manufacturers - Major,NA,stocks/vt
 VVUS,VIVUS Inc.,Healthcare,Biotechnology,WIKI/VVUS,stocks/vvus
 VVTV,ValueVision Media Inc.,Services,Catalog & Mail Order Houses,WIKI/VVTV,stocks/vvtv
 VVC,Vectren Corporation,Utilities,Diversified Utilities,WIKI/VVC,stocks/vvc
-VXX,iPath S&P 500 VIX Short Term Futures
+VXX,iPath S&P 500 VIX Short Term Futures,Financial,NA
 VYFC,Valley Financial Corporation,Financial,Regional - Mid-Atlantic Banks,NA,stocks/vyfc
 VZ,Verizon Communications Inc.,Technology,Telecom Services - Domestic,WIKI/VZ,stocks/vz
 WAB,Westinghouse Air Brake Technologies Corporation,Services,Railroads,WIKI/WAB,stocks/wab
@@ -3320,6 +3323,7 @@ XWES,"World Energy Solutions, Inc.",Services,Business Services,NA,NA
 XXIA,Ixia,Technology,Internet Software & Services,NA,stocks/xxia
 XYL,Xylem Inc.,Industrial Goods,Diversified Machinery,WIKI/XYL,stocks/xyl
 Y,Alleghany Corporation,Financial,Property & Casualty Insurance,WIKI/Y,stocks/y
+YANG,Direxion Daily China Bear 3x Shares ETF,Financial,NA,NA
 YDKN,Yadkin Financial Corporation,Financial,Regional - Mid-Atlantic Banks,WIKI/YDKN,NA
 YELP,"Yelp, Inc.",Technology,Internet Information Providers,WIKI/YELP,stocks/yelp
 YHOO,Yahoo! Inc.,Technology,Internet Information Providers,WIKI/YHOO,stocks/yhoo
