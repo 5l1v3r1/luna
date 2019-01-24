@@ -278,7 +278,7 @@ def main():
         exit()
     else:
         print("Generating plot...")
-        plt.rc('xtick', labelsize=6) # will make this automatically scale later
+        plt.rc('xtick', labelsize=8) # will make this automatically scale later
         lists = sorted(datastore.items())
         x, y = zip(*lists)
         plt.plot(x, y)
