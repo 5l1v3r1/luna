@@ -99,16 +99,12 @@ CURRENT MARKET SENTIMENT: Mildly bullish
 * Contextual polarity extraction for better accuracy
 * Better support for different exchanges, eg Euronext, HKEX, SZE, JPX etc.
 * Integration with SeekingAlpha to allow more data to be analyzed
-* Ability to analyze tweets about a certain security for better accuracy in detecting current market sentiment
 * ~~Removal of irrelevant articles (low priority)~~
-* ~~Date range selection~~ 
 
 ## to-do list (distant future)
 * Clean up code 
 * Remove urllib
 * Improve accuracy of lexicon (might use Tensorflow)
-* Add graphing of market sentiment change over time, probably with [hipsterplot](https://github.com/imh/hipsterplot)
-
 
 ### test.py
 test.py tests the accuracy of the scores in luna_lexicon.py and the functionality of luna in general. Only takes individual URLs, not stock tickers. 
