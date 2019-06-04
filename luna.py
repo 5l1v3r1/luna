@@ -76,7 +76,8 @@ def analyze(text):
     compound = [] 
     scores = [sid.polarity_scores(token) for token in tokenized]
     compound = [score["compound"] for score in scores]
-    return mean(compound)
+    return (mean(compound)-0.1)
+    # adjusting downwards 
 
 
 def fetch_urls(ticker):
