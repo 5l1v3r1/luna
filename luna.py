@@ -50,19 +50,19 @@ sid = SentimentIntensityAnalyzer()
 def determine(score): 
     positive = 0.5
     negative = -0.5
-    if (score > 0) and (score <= (positive/4)): 
+    if (score > 0) and (score < (positive/4)): 
         return "ver-milbull"
-    elif (score > 0) and (score <= (positive/2)):
+    elif (score > 0) and (score < (positive/2)):
         return "milbull"
-    elif (score > 0) and (score >= (positive/2)):
+    elif (score > 0) and (score > (positive/2)):
         return "modbull"
     elif (score >= positive): 
         return "verbull"
-    elif (score < 0) and (score <= (negative/4)): 
+    elif (score < 0) and (score < (negative/4)): 
         return "ver-milbear"
-    elif (score < 0) and (score >= (negative/2)):
+    elif (score < 0) and (score > (negative/2)):
         return "milbear"
-    elif (score < 0) and (score <= (negative/2)): 
+    elif (score < 0) and (score < (negative/2)): 
         return "modbear"
     elif (score <= negative): 
         return "verbear"
@@ -97,6 +97,9 @@ def fetch_urls(ticker):
     # removes duplicate URLs
     total_links = list(set(total_links))
     return total_links 
+
+
+# checks whether ticker / company name appears in keywords 
 
 def relevancy_check(link, title, keywords): 
     global ticker 
